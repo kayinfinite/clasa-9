@@ -2,5 +2,6 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
 		<Project filename="CifBin/CifBin.cbp" />
+		<Project filename="Free_time/Free_time.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
