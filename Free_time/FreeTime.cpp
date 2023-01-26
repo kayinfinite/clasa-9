@@ -2,13 +2,14 @@
 #include <thread>
 using namespace std;
 
-int t = 0;
-
+char t;
+int viteza = 0;
 static bool input = false;
 
 void speed(){
     while(!input){
-    cout << "hello"<<"\n";
+    viteza++;
+
     };
 
 }
@@ -18,9 +19,9 @@ int main()
 {
     // incerc sa facu un joculet cu tren in console aplication
     std::thread worker(speed);
-    std::cin.get();
+    cin >> t;
     input = true;
     worker.join();
-    std::cin.get();
+    cout << "viteza: "<< viteza;
 
 }
