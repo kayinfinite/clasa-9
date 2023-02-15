@@ -7,6 +7,7 @@ int main(){
     int position_box[2] = {1 ,1};
     int condition = 0;
     char comanda;
+    cout << "Impinge cutia la cordonatele x: 4 si y: 5." <<"\n"<<"Folosete w, a, s, d pentru a te misca."<< "\n"<<"--------------------------------------------"<< "\n";
     cout <<"Player location:"<<" x ="<< position_player[0] <<" y ="<< position_player[1] <<"\n";
 
     while(true){
@@ -35,6 +36,14 @@ int main(){
                 if(position_player[0]== position_box[0] && position_player[1]== position_box[1]){
                     position_box[0]++;
                 }
+        }
+        if((position_box[0]== 0 && position_box[1]== 0) || (position_box[0]== 0 && position_box[1]== 6) || (position_box[0]== 6 && position_box[1]== 0) || (position_box[0]== 6 && position_box[1]== 6)){
+            cout <<"Cutia este blocata."<<"\n"<<"Ai pierdut";
+            return 0;
+        }
+        if(position_box[0]== 4 && position_box[1]== 5){
+           cout <<"--------------------------"<<"\n"<<"Ai castigat";
+            return 0;
         }
         cout <<"Player location:"<<" x ="<< position_player[0] <<" y ="<< position_player[1] <<"\n";
         cout <<"Box location:"<<" x ="<< position_box[0] <<" y ="<< position_box[1] <<"\n";
