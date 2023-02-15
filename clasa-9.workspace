@@ -3,5 +3,6 @@
 	<Workspace title="Workspace">
 		<Project filename="CifBin/CifBin.cbp" />
 		<Project filename="Free_time/Free_time.cbp" />
+		<Project filename="Progresie aritmetica/Progresie aritmetica.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
