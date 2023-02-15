@@ -1,22 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int position_player[3] = {0 ,0 , 0};
+    //mic joculet
+    int position_player[2] = {3 ,3};
+    // [0] pentru axa x; [1] pentru axa y;
     int condition = 0;
     char comanda;
 
-        while(condition <= 1){
-            cin >> comanda;
-            switch(comanda){
-                case "w":
-                position_player[0] = position_player[0] + 1;
-                break;
-                default:
-                cout << "comanda gresita";
-                break;
-            }
-            for(int x =0; x<=2; x++){
-                cout << position_player[x];
-            }
-        }
+    while(true){
+        cout << "introduce comanda: "; cin >> comanda;
+        if(comanda == 'w' && position_player[1] < 6 ){
+                position_player[1]++;
+        }
+        cout <<"x ="<< position_player[0] <<"\n" <<"y ="<< position_player[1] <<"\n";
+    }
 };
