@@ -12,6 +12,15 @@ int main(){
         if(comanda == 'w' && position_player[1] < 6 ){
                 position_player[1]++;
         }
+        if(comanda == 's' && position_player[1] > 0 ){
+                position_player[1]--;
+        }
+        if(comanda == 'a' && position_player[0] > 0 ){
+                position_player[0]--;
+        }
+        if(comanda == 'd' && position_player[0] < 6 ){
+                position_player[0]++;
+        }
         cout <<"x ="<< position_player[0] <<"\n" <<"y ="<< position_player[1] <<"\n";
     }
 };
