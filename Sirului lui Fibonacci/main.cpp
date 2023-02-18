@@ -8,6 +8,9 @@ int main()
     cout <<"Cate numere sa afisam din fir: "; cin >> n;
     int Fibonacci[2] = {1, 1};
     int pahar;
+    if(n<2||n>40){
+        cout << "Numar invaid"; return 0;
+    }
     cout << Fibonacci[1] << ", ";
     for(int x = 0; x < n - 1; x++){
         //cout << "Primul = " << Fibonacci[0] << "\n" <<"Al doielea = " << Fibonacci[1] << "\n"; //Pentru a vedea numerele
