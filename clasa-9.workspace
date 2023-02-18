@@ -4,5 +4,6 @@
 		<Project filename="CifBin/CifBin.cbp" />
 		<Project filename="Free_time/Free_time.cbp" />
 		<Project filename="Progresie aritmetica/Progresie aritmetica.cbp" />
+		<Project filename="Joculet/Joculet.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
