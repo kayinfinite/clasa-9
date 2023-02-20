@@ -5,5 +5,6 @@
 		<Project filename="Free_time/Free_time.cbp" />
 		<Project filename="Progresie aritmetica/Progresie aritmetica.cbp" />
 		<Project filename="Joculet/Joculet.cbp" />
+		<Project filename="Sirului lui Fibonacci/Sirului lui Fibonacci.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
